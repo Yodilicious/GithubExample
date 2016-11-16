@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GithubExample
+﻿namespace GithubExample
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            PrintHello("Jodi");
+        }
+
+        public static void PrintHello(string name)
+        {
+            System.Console.WriteLine($"Hello, {name}!");
         }
     }
 }
