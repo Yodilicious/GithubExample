@@ -4,12 +4,12 @@
     {
         public static void Main(string[] args)
         {
-            PrintHello();
+            PrintHello("Jodi");
         }
 
-        public static void PrintHello()
+        public static void PrintHello(string name)
         {
-            System.Console.WriteLine("Hello, Jodi!");
+            System.Console.WriteLine($"Hello, {name}!");
         }
     }
 }
